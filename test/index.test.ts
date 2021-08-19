@@ -7,7 +7,7 @@ import pkg from '../package.json';
 
 describe('main', function () {
   it('should have been changed', () => {
-    expect(src()).to.not.throw();
+    expect(() => src()).to.not.throw();
   });
 
   describe('package.json', function () {
