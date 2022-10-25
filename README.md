@@ -11,13 +11,13 @@ Anyone who uses TypeScript with Visual Studio Code and writes tests with Mocha.
 ## Features
 
 - Build and watch with tolerable TS presets.
-- Testing with mocha & chai.
-- @types definitions for mocha, chai, node, and other dependencies included.
+- Testing with jest.
+- @types definitions for jest, node, and other dependencies included.
 - Visual Studio Code project settigns preconfigured for
   - Test Explorer UI recognizing Typescript tests
   - Debugging Typescript tests within the IDE
 - Configuration and rc files:
-  - One configuration location for mocha, prettier, eslint & typescript so CLI programs and IDEs/extensions reuse configuration.
+  - One configuration location for jest, prettier, eslint & typescript so CLI programs and IDEs/extensions reuse configuration.
   - Config files whose path can be configured from a central location have been moved to `etc/`
   - Minimal .gitignore
 
@@ -30,7 +30,7 @@ Anyone who uses TypeScript with Visual Studio Code and writes tests with Mocha.
 - `format`: format source files inline with prettier
 - `watch`: clean && continuously build files on change
 - `lint`: lint src && test
-- `test:unit`: mocha tests
+- `test:unit`: jest tests
 - `test`: lint && test:unit
 
 ## Visual Studio Code extensions
